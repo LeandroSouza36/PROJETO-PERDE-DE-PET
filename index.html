@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicas para Pets Perdidos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">PetAjuda</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-600 hover:text-blue-600"
+          >Início</a
+        >
+        <a href="cadastrarPet.html" class="text-gray-600 hover:text-blue-600"
+          >Cadastrar Pet Perdido</a
+        >
+        <a href="listaPets.html" class="text-gray-600 hover:text-blue-600"
+          >Pets Perdidos</a
+        >
+        <a href="#" class="text-gray-600 hover:text-blue-600">Contato</a>
+        <a href="#" class="text-gray-600 hover:text-blue-600">Sobre</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative text-center py-12 px-4 bg-green-400 bg-no-repeat bg-right-bottom"
+      style="background-image: url('pets/pet.png'); background-size: 500px"
+    >
+      <!-- Camada opcional para contraste, pode remover se não quiser -->
+      <div class="relative z-10">
+        <h2 class="text-6xl font-bold mb-4text-black">Perdeu seu Pet?</h2>
+        <p
+          class="text-lg mb-6 text-black"
+          style="font-size: x-large; font-weight: bolder"
+        >
+          Veja aqui os animais que foram encontrados ou que estão desaparecidos!
+        </p>
+        <a href="listaPets.html">
+          <button
+            class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700"
+          >
+            Pets Perdidos
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Dicas Section -->
+    <section class="py-12 px-6 max-w-6xl mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-10">
+        O que fazer quando seu pet se perde
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-xl mb-2">📢 Divulgação</h4>
+          <p>Divulgue em todos os canais possíveis, online e offline.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-xl mb-2">📝 Informações</h4>
+          <p>Forneça fotos, características, local e contato.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-xl mb-2">👀 Atenção</h4>
+          <p>Verifique os locais que o pet costuma frequentar.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-xl mb-2">🔔 Chamar a atenção</h4>
+          <p>Fale com vizinhos, correios, etc.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-xl mb-2">🏠 Prontidão</h4>
+          <p>Esteja pronto para receber o pet se encontrá-lo.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-xl mb-2">⚠️ Segurança</h4>
+          <p>Não vá sozinho a locais perigosos.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h4 class="font-bold text-xl mb-2">📱 Comunicação</h4>
+          <p>Mantenha contato com quem está ajudando.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Ajuda -->
+    <section class="bg-white py-12 px-6">
+      <h3 class="text-2xl font-bold text-center mb-6">Ajude na busca</h3>
+      <form class="max-w-xl mx-auto grid gap-4">
+        <input type="text" placeholder="Nome" class="border p-3 rounded" />
+        <input type="email" placeholder="Email" class="border p-3 rounded" />
+        <input
+          type="text"
+          placeholder="Área de atuação (bairro, cidade...)"
+          class="border p-3 rounded"
+        />
+        <button class="bg-green-600 text-white py-2 rounded hover:bg-green-700">
+          Quero Ajudar
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-6 mt-10">
+      <p>&copy; 2025 PetAjuda. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

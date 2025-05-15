@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets Perdidos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-white shadow p-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">PetAjuda</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-600 hover:text-blue-600"
+          >Início</a
+        >
+        <a href="cadastrarPet.html" class="text-gray-600 hover:text-blue-600"
+          >Cadastrar Pet Perdido</a
+        >
+        <a href="listaPets.html" class="text-gray-600 hover:text-blue-600"
+          >Pets Perdidos</a
+        >
+        <a href="#" class="text-gray-600 hover:text-blue-600">Contato</a>
+        <a href="#" class="text-gray-600 hover:text-blue-600">Sobre</a>
+      </nav>
+    </header>
+
+    <!-- Lista de Pets Perdidos -->
+    <main class="py-12 px-6 max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">
+        Lista de Pets Perdidos
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Card de Pet Perdido -->
+        <div
+          class="bg-white rounded-lg shadow p-4"
+          style="background-color: #99ff99"
+        >
+          <img
+            src="pets/rex.jpg"
+            alt="Foto do pet"
+            class="w-120 h-120 object-cover rounded"
+          />
+          <h3 class="text-xl font-semibold mt-4">Rex</h3>
+          <p class="text-gray-600">Último local visto: Parque Central</p>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow p-4"
+          style="background-color: #99ff99"
+        >
+          <img
+            src="pets/luna.jpg"
+            alt="Foto do pet"
+            class="w-120 h-120 object-cover rounded"
+          />
+          <h3 class="text-xl font-semibold mt-4">Luna</h3>
+          <p class="text-gray-600">Último local visto: Rua das Flores</p>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow p-4"
+          style="background-color: #99ff99"
+        >
+          <img
+            src="pets/thor.jpg"
+            alt="Foto do pet"
+            class="w-120 h-120 object-cover rounded"
+          />
+          <h3 class="text-xl font-semibold mt-4">Thor</h3>
+          <p class="text-gray-600">Último local visto: Praça do Sol</p>
+        </div>
+
+        <!-- Adicione mais cards conforme necessário -->
+      </div>
+    </main>
+  </body>
+</html>
